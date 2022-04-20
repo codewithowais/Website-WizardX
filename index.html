@@ -107,8 +107,6 @@
    <link rel="stylesheet" href="assets/css/layout.css">
    <link rel="stylesheet" href="assets/css/main7e0c.css?v=0.1">
    <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 </head>
 
@@ -179,7 +177,7 @@
                <!-- <a href="#0" class="header-button d-none d-sm-inline-block">Live Chat</a> -->
                <!-- <a href="javascript:;" onclick="$zopim.livechat.window.toggle()"
                   class="header-button d-none d-sm-inline-block">Live Chat</a> -->
-               <a href="javascript:$zopim.livechat.window.show();"
+               <a href="javascript:;" onclick="$zopim.livechat.window.toggle()"
                   class="header-button d-none d-sm-inline-block">Live Chat</a>
             </div>
          </div>
@@ -2372,7 +2370,7 @@
             <div class="member-counter cl-white">
                <h2 class="title"><span class="counter">455,326,234</span></h2>
                <p>People Joined Already</p>
-               <a href="#0" style="color: black;" class="custom-button request_info">Explore Your Business</a>
+               <a href="" style="color: black;" class="custom-button request_info">Explore Your Business</a>
 
             </div>
          </div>
@@ -2586,7 +2584,7 @@
       <div class="container">
          <div class="footer-top padding-top ft-pd">
             <div class="logo">
-               <a href="#0">
+               <a href="">
                   <img src="assets/images/logo/footer-logo.png" alt="logo">
                </a>
             </div>
@@ -3321,11 +3319,7 @@
    <script src="assets/js/waypoints.js"></script>
    <script src="assets/js/nice-select.js"></script>
    <script src="assets/js/owl.min.js"></script>
-   <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
-      crossorigin="anonymous"></script>
-
-
+ 
    <!-- <script src="./assets/js/canvasjs.min.js"></script> -->
    <script src="assets/js/paroller.js"></script>
    <script src="assets/js/main.js"></script>
@@ -3354,6 +3348,11 @@
 
    <script>
       var TxtRotate = function (t, e, i) { this.toRotate = e, this.el = t, this.loopNum = 0, this.period = parseInt(i, 10) || 2e3, this.txt = "", this.tick(), this.isDeleting = !1 }; TxtRotate.prototype.tick = function () { var t = this.loopNum % this.toRotate.length, e = this.toRotate[t]; this.isDeleting ? this.txt = e.substring(0, this.txt.length - 1) : this.txt = e.substring(0, this.txt.length + 1), this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>"; var i = this, t = 300 - 100 * Math.random(); this.isDeleting && (t /= 2), this.isDeleting || this.txt !== e ? this.isDeleting && "" === this.txt && (this.isDeleting = !1, this.loopNum++, t = 500) : (t = this.period, this.isDeleting = !0), setTimeout(function () { i.tick() }, t) }, window.onload = function () { for (var t = document.getElementsByClassName("txt-rotate"), e = 0; e < t.length; e++) { var i = t[e].getAttribute("data-rotate"), s = t[e].getAttribute("data-period"); i && new TxtRotate(t[e], JSON.parse(i), s) } var o = document.createElement("style"); o.type = "text/css", o.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #fff }", document.body.appendChild(o) };
+   </script>
+   <script>
+      function openChatBox() {
+         $zopim.livechat.window.toggle();
+      }
    </script>
 </body>
 

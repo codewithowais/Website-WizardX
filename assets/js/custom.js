@@ -37,7 +37,7 @@ $('.request_info').on('click', function() {
 
         dots: true,
 
-        arrows: true,
+        arrows: false,
 
         infinite: true,
 
