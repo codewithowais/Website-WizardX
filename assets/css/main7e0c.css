@@ -932,14 +932,14 @@ input[type="submit"]{cursor:pointer;background-color:#0a3d62;color:#ffffff  ;fon
 }
 
 /*Header Section Starts Here*/
-.header-section{width:100%;position:fixed;z-index:999;top:10px;-webkit-transition:all ease 0.3s;-moz-transition:all ease 0.3s;transition:all ease 0.3s;padding:15px 0;
+.header-section{width:100%;position:fixed;z-index:999;top:10px;-webkit-transition:all ease 0.3s;-moz-transition:all ease 0.3s;transition:all ease 0.3s;padding:15px 0;background-color: #494848;
     
     
     
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.88+0,0+100;White+to+Transparent */
-background: -moz-linear-gradient(left, rgba(255,255,255,0.88) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, rgba(255,255,255,0.88) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, rgba(255,255,255,0.88) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*background: -moz-linear-gradient(left, rgba(255,255,255,0.88) 0%, rgba(255,255,255,0) 100%);/* /* FF3.6-15 */
+/*background: -webkit-linear-gradient(left, rgba(255,255,255,0.88) 0%,rgba(255,255,255,0) 100%);/* /* Chrome10-25,Safari5.1-6 */
+/*background: linear-gradient(to right, rgba(255,255,255,0.88) 0%,rgba(255,255,255,0) 100%);/* /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 
 
@@ -1009,13 +1009,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0ffffff', e
 }
 .header-section.header-white-dark .header-button{border-color:#898989; color:#111; background-color: #fbd13f;}
 .header-section.header-white-dark .header-button.light{border-color:#7d92fc;}
-.header-section.header-white-dark.active{background-color:#ffffff  ;border-bottom:1px solid rgba(59,54,140,0.3);box-shadow:0 -2px 5px rgba(59,54,140,0.1);}
+.header-section.header-white-dark.active{background-color:#282828  ;border-bottom:1px solid rgba(59,54,140,0.3);box-shadow:0 -2px 5px rgba(59,54,140,0.1);}
 @media (min-width:576px){
   .header-section.header-white-dark.active .header-wrapper .header-button{color:#111111;}
   .header-section.header-white-dark.active .header-wrapper .header-button.light{border-color:#8c69c5;}
 }
 @media (min-width:992px){
-  .header-section.header-white-dark.active .header-wrapper .menu li a{color:#111111;}
+  .header-section.header-white-dark.active .header-wrapper .menu li a{color:#ffffff;}
   .header-section.header-white-dark.active .header-wrapper .menu li ul li a{color:#ffffff  ;}
   .header-section.header-white-dark.active .header-wrapper .menu li ul li a:hover{color:#ffffff  ;}
 }
