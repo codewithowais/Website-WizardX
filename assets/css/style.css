@@ -280,11 +280,11 @@ ul.rad>li{display:inline-block;width:45%;}
 .tff.tf{height:auto;overflow:hidden;}
 
 /*terms*/
-.priv-wrap h5{font-size:24px;margin-bottom:10px;text-transform:uppercase;margin:0;}
+.priv-wrap h5{font-size:24px;margin-bottom:10px;text-transform:uppercase;margin:0;font-weight: bolder;}
 ul.term-lst{}
 ul.term-lst>li{}
 ul.term-lst>li>p{padding-left:18px;position:relative;}
-ul.term-lst>li>p:before{position:absolute;content:"\f00c";font-family:"Font Awesome 5 Free";font-weight:600;color:#ffffff  ;font-size:12px;left:0;top:0;bottom:0;}
+ul.term-lst>li>p:before{position:absolute;content:"\f00c";font-family:"Font Awesome 5 Free";font-weight:600;color:#000000  ;font-size:12px;left:0;top:0;bottom:0;}
 .priv-wrap h6{font-size:18px;color:#fff;margin-bottom:10px;}
 .priv-wrap{margin-bottom:20px;}
 .priv-wrap p{font-size:15px;}
