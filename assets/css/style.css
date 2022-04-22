@@ -61,7 +61,7 @@ ul.ewrk-sil button.slick-prev.slick-arrow:after{content:"\f060";}
 .ewrk-ctn h5{text-transform:capitalize;margin-bottom:20px;}
 
 /* POP UP Start */
-.popupMain{position:fixed;top:0px;bottom:0;right:0px;left:0px;width:1000px;height:550px;padding:0;margin:auto;z-index:99;display:flex;align-items:center;display:none;box-shadow:0px 2px 18px 0px #4e41d9;background:#040223;background-image:url(../images/banner/popup.jpg);background-repeat:no-repeat;background-size:cover;}
+.popupMain{position:fixed;top:0px;bottom:0;right:0px;left:0px;width:1000px;height:550px;padding:0;margin:auto;z-index:99;display:flex;align-items:center;display:none;background:#040223;background-image:url(../images/banner/popup.jpg);background-repeat:no-repeat;background-size:cover;}
 .popupMain .closePop{position:absolute;right:-15px;top:-10px;background:#ffffff  ;color:#ffffff  ;width:35px;height:35px;border-radius:25px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:600;}
 .popTxt{margin-bottom:15px;}
 .popTxt h6{font-size:35px;font-weight:normal;font-stretch:normal;font-style:normal;line-height:1.03;letter-spacing:0px;color:#ffffff  ;margin-bottom:1px;font-weight:bold;}
