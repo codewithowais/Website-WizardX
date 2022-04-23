@@ -1,6 +1,6 @@
 :root {
     --white: #fff;
-    --green: #fbd13f;
+    --green: #fbe312;
     --orange: #6f7378;
     --gray: #f4f6fd;
     --dark: #252525;
@@ -372,7 +372,7 @@ h2 {
 }
 
 .primary-btn.green-btn {
-    background: #fbd13f;
+    background: var(--green);
 }
 
 .primary-btn.orange-btn {
